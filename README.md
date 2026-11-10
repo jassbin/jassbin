@@ -7,7 +7,19 @@
 
 ---
 
-## 三个能马上点开的
+## 四个能马上点开的
+
+### 🌊 [苍澜群岛 Canglan Islands](https://github.com/jassbin/canglan-islands) · [打开在线推演 ↗](https://canglan-wargame.app.workbuddy.host/?sharecode=H5AAFF5PHX)
+
+**把一个三方战役级兵棋推演，整个装进一个浏览器标签页。**
+红 / 蓝 / 绿三方各有自己的机器参谋、各自独立的一张战场态势图；海岸线、舰体、飞机、导弹阵地，全是页面加载时用代码现算出来的 —— **仓库里没有一个 3D 模型文件**。
+底下压着六层数据脊柱（L1–L6）：一个数值一个家，公开来源才准入，每条记录带置信度。无构建、无后端、无需安装，挂个静态服务器就能跑。
+
+> 基于公开资料重建的研究 / 教学模型，不代表任何官方立场。
+
+`three.js` · `零 3D 资产` · `六层公开数据脊柱` · `MIT`
+
+<br/>
 
 ### 🖐️ [手势魔方 Gesture Cube](https://github.com/jassbin/gesture-cube) · [手机试玩 ↗](https://gesture-cube-d5c0aace.eazo.dev)
 
@@ -47,6 +59,7 @@
 | **证据驱动调试** | 抓响应体 → 按变量二分 → 再压并发。先定性再动手，不靠猜 | [codex-429](https://github.com/jassbin/codex-429-queue-gateway) |
 | **把噪声变成确定性** | 用「停顿」当确认、用「锁定」当状态、用代价不对称性定阈值 | [gesture-cube](https://github.com/jassbin/gesture-cube) |
 | **信源分级 T1–T5** | 纯规则零 LLM 给证据打权威分 + 跨源交叉印证 | [deep-analysis-workbench](https://github.com/jassbin/deep-analysis-workbench) |
+| **程序化建模 + 数据脊柱** | 3D 资产全部用代码生成；数值分层存放、来源准入、置信度标注，页面只做读取 | [canglan-islands](https://github.com/jassbin/canglan-islands) |
 
 ---
 
@@ -57,6 +70,9 @@
 - **[西游人格测试](https://github.com/jassbin/xiyou-personality-test)** — 《牛来》画风五维价值观测试，小程序 + 浏览器双端 · [玩一下 ↗](https://xyj.jasss.art)
 - **[跨境套利指挥台](https://github.com/jassbin/arbitrage-cockpit)** — 国外需求 → 到手净利 → 国内产能匹配 → 防跳单审计 → 回款账本
 - **[出海指挥官](https://github.com/jassbin/export-commander-ai)** — 跨境外贸 AI 营销总控台：策略 → 素材 → 种草投流 → 诊断 → 迭代
+- **[深度分析工作台](https://github.com/jassbin/deep-analysis-workbench)** — 三个 AI Skill 产品化成 7 步推理轨迹工作台，零依赖 Web MVP
+- **[事件真实性分析](https://github.com/jassbin/event-truth-analysis)** — 把「这事是真的吗」变成可追溯、可反驳、可更新的证据链
+- **[战争新闻聚合](https://github.com/jassbin/war-news)** — RSS + Supabase + Vercel Cron，自动抓取全球冲突新闻 · [在线 ↗](https://war-news-one.vercel.app)
 
 ---
 
